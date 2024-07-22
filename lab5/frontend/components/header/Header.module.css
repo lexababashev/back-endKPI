@@ -1,0 +1,29 @@
+.header {
+    background-color: var(--primary-color);
+    height: 6rem;
+    display: flex;
+    justify-content: end;
+    padding-right: 3rem;
+    align-items: center;
+}
+
+.ul {
+    display: flex;
+    column-gap: 2rem;
+}
+
+.li > a {
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: var(--text-color);
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    transition: color .3s;
+}
+
+.li > a:hover {
+    color: var(--secondary-color);
+    background-color: var(--text-color);
+}

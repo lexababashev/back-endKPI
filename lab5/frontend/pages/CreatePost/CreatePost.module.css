@@ -1,0 +1,59 @@
+.wrapper {
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    width: 70%;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+    background-color: var(--primary-color);
+}
+
+.heading {
+    color: var(--text-color);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    row-gap: 1rem;
+    margin-top: 1rem;
+}
+
+.input {
+    padding: 0.5rem;
+    border: 0;
+    border-radius: 0.5rem;
+    outline: none;
+    color: var(--text-color);
+    background-color: var(--secondary-color);
+    font-size: 1.2rem;
+}
+
+.textarea {
+    box-sizing: border-box;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: var(--text-color);
+    background-color: var(--secondary-color);
+    font-size: 1.2rem;
+    outline: none;
+    resize: vertical;
+}
+
+.button {
+    padding: 0.5rem;
+    border: 0;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    font-size: 1.2rem;
+    transition: color .3s;
+}

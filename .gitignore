@@ -1,0 +1,19 @@
+
+# Ignore specific labs directories
+lab1/
+lab2/
+lab3/
+
+# Ignore node_modules directories everywhere
+**/node_modules/
+
+# Ignore .env files everywhere
+**/*.env
+
+*.log
+
+# Ignore specific files
+Варіанти_OBET-24.xlsx
+Приклад звіту.docx
+Методичні_вказівки_з_Основи_BЕ_технологій_24.pdf
+Дисципліна_«Основи_back_end_технологій».docx

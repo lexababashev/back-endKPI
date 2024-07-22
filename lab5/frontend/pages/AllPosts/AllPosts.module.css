@@ -1,0 +1,17 @@
+.section {
+    margin: 2rem;
+}
+
+.heading {
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.postGrid {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 1.5rem;
+}
